@@ -4,17 +4,163 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first project</title>
+    <title>my webpage</title>
+    <style>
+         *{
+             margin: 0;
+             padding: 0;
+         }
+        div{
+            background-color: purple;
+            color: white;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        /*----heading one styling-----*/
+        h1{
+            margin: 0 10px;
+            font-size: 40px;
+            text-transform: capitalize;
+        }
+        ul{
+            margin: 10px 0 0 10px;
+        }
+        ul li{
+            margin: 0 40px;
+            font-size: 30px;
+            text-transform: capitalize;
+        }
+    </style>
 </head>
 <body>
-    <h1>HTML Class<address>Starz College of Science and Technology<br>
-        Cheesman Avenue, Airfield, Sinkor <br>Monrovia-Liberia</address></h1><hr>
-  <br> <h1> What is Fallerama?</h1>
-    <P> Fillerama is a wib service that generates placehokder text composed of quotes from Futurama, Star Wars,Dexter, The Simpsons, Doctor Who, Monty python. Fillerama is a tool that changes texts by letting you generate filler text with quotes from popular TV show Futurama.</P>
-    <h1> Why do we use it? </h1>
-    <p> It is obvious that Fillerama has many features. Using Fillerama allow one to insert many paragraph tags and can be used with no registration required. This tool also contain fun filler text generator base Futurama quotes and give your filler text a nice touch of humor. The options are awesome, choices including HTML or Markdown, Headers, List and inline Styles.</p>
-        <h1> Where can I get some?</h1>
-        <p> Fillerama is exposed through a simple API. Developers specify the numbers of sentences, the format, and the show from which quotes will be generated. The API responds with JSON or XML formatted text. You con choose to generate as many paragraphs you want and decide if you want to insert paragraph tags. While generating the text, you can instantly preview it and make any changes you. Once it looks good, click generate and use it wherever you want. Nothing fancy or revolutional, but a nice break from the default Lorem Ipsum</p>
-        <blockquote>Fillerama is a web service that generates placeholder text composed of quotes from Futurama, Star Wars, Dexter, The Simpsons, Doctor Who, Monty python. Fillerama is a tool that changes texts by letting you generate filler text with quotes from popular TV show Futurama.</blockquote>
+    <!--------my div comment ----->
+    <div>
+        <h1>hello</h1>
+        <ul type="square">
+            <li>reading  book</li>
+            <li>watching movies</li>
+            <li>programming language
+                <ul>
+                    <li>orange</li>
+                    <li>green</li>
+                    <li>white</li>
+                </ul>
+            </li>
+        </ul>
+    </div><hr>
+    <div>
+        <!--------second div comment--------->
+        <hr>
+        <h1>four things to expect in life:</h1>
+        <ul>
+            <li>love
+                <ol type="i">
+                    <li>happiness</li>
+                    <li>emotions</li>
+                </ol>
+            </li>
+            <li>hate
+                <ol type="i">
+                    <li>fear</li>
+                    <li>shame</li>
+                </ol>
+            </li>
+            <li>work 
+                <ol type="i">
+                    <li>jobs</li>
+                    <li>careers</li>
+                </ol>
+            </li>
+            <li>play
+                <ol type="i">
+                    <li>retirement</li>
+                    <li>recreation</li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <hr>
+        <h1>list of items</h1>
+        <ul>
+            <!---list elments ---->
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4
+                <ul>
+                    <!----sub-list elements-->
+                    <li>sub-item 1</li>
+                    <li>sub-item 2</li>
+                    <li>sub-item 3
+                        <ul>
+                            <!---sub-sub elements---->
+                            <li>sub-sub item 1</li>
+                            <li>sub-sub item 2</li>
+                            <li>sub-sub item 3
+                                <ul>
+                                    <!-----sub-sub-sub nested elements-->
+                                    <li>sub-sub-sub item 1</li>
+                                    <li>sub-sub-sub item 2</li>
+                                    <li>sub-sub-sub item 3</li>
+                                    <li>sub-sub-sub item 4</li>
+                                </ul>
+                            </li>
+                            <li>sub-sub item 4</li>
+                        </ul>
+                        <li>sub-item 4</li>
+                    </li>
+                </ul>
+            </li>
+            <li>item 5</li>
+            <li> item 6 </li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h1>Aircraft types</h1>
+        <ul>
+            <li>General Aviation(Piston-driven engines)
+                <ol>
+                    <li>single-engine aircraft
+                        <ol type="I">
+                            <li>tail wheel</li>
+                            <li>tricycle</li>
+                        </ol>
+                    </li>
+                    <li>dual-engine Aircraft
+                        <ol type="A">
+                            <li>wing-mounted engines</li>
+                            <li>push-pull fuselage-mounted engines</li>
+                        </ol>
+                    </li>
+                </ol>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+        <!-------first unorder and order list comment-------->
+        <ul>
+            <li>commercial aviation(jet engines)
+                <ol>
+                    <li>dual-engine aircraft
+                        <ol type="a">
+                            <li>wing-mounted engines</li>
+                            <li>fuselage-mounted engines</li>
+                        </ol>
+                    </li>
+                    <li>tri-engine Aircraft
+                        <ol type="i">
+                            <li>third engine in vertical stabilizer</li>
+                            <li>third engine in fuselage</li>
+                        </ol>
+                    </li>
+                </ol>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
